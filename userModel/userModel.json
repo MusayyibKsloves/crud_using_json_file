@@ -1,0 +1,15 @@
+[
+    {   "id": 1,
+        "name": "musa",
+        "mobile": "124567890",
+        "email": "musa123@gmail.com",
+        "address": "mzn"
+    },
+    {
+        "id": 2,
+        "name": "abc",
+        "mobile": "1234567890",
+        "email": "abc123@gmail.com",
+        "address": "mzn"
+    }
+]
