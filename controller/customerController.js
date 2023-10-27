@@ -23,7 +23,7 @@ const customerRegister = async (req, res) => {
                "password": pass
 
           });
-          res.status(201).json(customerData);
+          res.status(201).json({'message':'customer register successfully !'});
           
     }
     catch(err)
