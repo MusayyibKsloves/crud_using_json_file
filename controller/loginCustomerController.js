@@ -13,7 +13,7 @@ const customerLogin = async (req, res) => {
     const checkpass = await bcrypt.compare(password, checkCustomer.password);
      console.log(checkpass);
     if(checkpass) {
-         res.status(200).json({'Login successfully on this User' : `${checkCustomer.customerName}` })
+         res.status(200).json({' customer' : `${checkCustomer.customerName} Login successfully ` })
     }
     else {
         res.status(401).json({ 'message': 'password not matched !' });
